@@ -7,6 +7,9 @@ header{
 	background-size: cover;	
 	height: 637px;
 }
+header div{
+	text-align: center;
+}
 .btn-sumate{
 	background-color: #FFBF00;
 	padding: 10px;
@@ -49,15 +52,21 @@ a:hover{
 /*Galeria*/
 #Galeria{
 	background-color: white;
+	text-align: center;
 }
 #Galeria img{
-	max-width: 200px;
+	max-width: 250px;
 }
 #Galeria p{
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	border-bottom: 2px solid black;
-	width: 70%;
+	width: 100%;
+	text-align: left;
+}
+.inline{
+	display: inline-block;
+	margin: 2%;
 }
 /*Footer*/
 footer{
