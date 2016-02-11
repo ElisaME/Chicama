@@ -1,0 +1,81 @@
+*{
+	font-family: Montserrat;
+}
+/*Header*/
+header{
+	background-image: url("../img/grupal.jpg");
+	background-size: cover;	
+	height: 637px;
+}
+.btn-sumate{
+	background-color: #FFBF00;
+	padding: 10px;
+	text-align: center;
+}
+.btn-sumate:hover{
+	color: white;
+}
+.logo{
+	max-width: 200px;
+}
+.nav a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0 5px;
+	margin-top: 2%;
+}
+a:hover{
+	background-color:  #FFBF00;
+}
+
+/*Margin y Padding*/
+.mgt-4{
+	margin-top: 4%;
+}
+.mgb-5{
+	margin-bottom:5%;
+	}
+.mgt-5{
+	margin-top: 5%;
+}
+.mgt-2{
+	margin-top: 2%;
+}
+.mgb-2{
+	margin-bottom: 2%;
+}
+/*Galeria*/
+#Galeria{
+	background-color: white;
+}
+#Galeria img{
+	max-width: 200px;
+}
+#Galeria p{
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	width: 70%;
+}
+/*Footer*/
+footer{
+	background-color: #424242;
+}
+footer p{
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	padding: 0 5px;
+}
+.r-line{
+	border-right: 1px solid white;
+}
+.ico{
+	max-width: 11px;
+}
+footer a{
+	text-decoration: none;
+	color: #0080FF;
+}
